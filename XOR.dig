@@ -22,7 +22,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>AC</string>
+          <string>N</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -36,7 +36,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>N</string>
+          <string>AC</string>
         </entry>
         <entry>
           <string>Bits</string>
