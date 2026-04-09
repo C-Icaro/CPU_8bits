@@ -971,6 +971,20 @@ OP7 - XOR</string>
       </elementAttributes>
       <pos x="1140" y="900"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>AC</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="1000"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -1063,6 +1077,10 @@ OP7 - XOR</string>
     </wire>
     <wire>
       <p1 x="820" y="1040"/>
+      <p2 x="840" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="1040"/>
       <p2 x="860" y="1040"/>
     </wire>
     <wire>
@@ -1230,6 +1248,10 @@ OP7 - XOR</string>
       <p2 x="1180" y="760"/>
     </wire>
     <wire>
+      <p1 x="840" y="1080"/>
+      <p2 x="920" y="1080"/>
+    </wire>
+    <wire>
       <p1 x="740" y="700"/>
       <p2 x="760" y="700"/>
     </wire>
@@ -1256,6 +1278,14 @@ OP7 - XOR</string>
     <wire>
       <p1 x="840" y="520"/>
       <p2 x="840" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="1040"/>
+      <p2 x="840" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="1000"/>
+      <p2 x="920" y="1080"/>
     </wire>
     <wire>
       <p1 x="1580" y="540"/>

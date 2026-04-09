@@ -39,12 +39,7 @@
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Default</string>
-          <long>1</long>
-        </entry>
-      </elementAttributes>
+      <elementAttributes/>
       <pos x="420" y="600"/>
     </visualElement>
     <visualElement>
@@ -101,7 +96,12 @@
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Default</string>
+          <long>1</long>
+        </entry>
+      </elementAttributes>
       <pos x="900" y="600"/>
     </visualElement>
     <visualElement>
