@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>AC</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1,1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes/>
+      <pos x="1020" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1060" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>48</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Shift Left</string>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Desloca todos os bits para a esquerda (Multiplica por dois)
+Descarta o MSB
+Insere 0 no LSB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="360"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="1020" y="580"/>
+      <p2 x="1060" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="460"/>
+      <p2 x="1000" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="500"/>
+      <p2 x="960" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="500"/>
+      <p2 x="880" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="500"/>
+      <p2 x="980" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="500"/>
+      <p2 x="900" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="500"/>
+      <p2 x="920" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="460"/>
+      <p2 x="1000" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="500"/>
+      <p2 x="1000" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="520"/>
+      <p2 x="1020" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="560"/>
+      <p2 x="1020" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="500"/>
+      <p2 x="940" y="540"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
