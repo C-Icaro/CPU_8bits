@@ -137,7 +137,7 @@ A implementação buscou manter fidelidade aos conceitos apresentados, adaptando
 
 ## 🎥 Vídeo Explicativo
 
-📎 Link do YouTube:  
+📎 Link do YouTube:  [Link](https://youtu.be/l2msdoqcu7w)
 
 ---
 
